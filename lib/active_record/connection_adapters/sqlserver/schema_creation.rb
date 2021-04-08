@@ -3,7 +3,7 @@
 module ActiveRecord
   module ConnectionAdapters
     module SQLServer
-      class SchemaCreation < AbstractAdapter::SchemaCreation
+      class SchemaCreation
         private
 
         def visit_TableDefinition(o)
